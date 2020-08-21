@@ -60,5 +60,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>Country</key>
+	<string></string>
+	<key>Currency</key>
+	<string></string>
+	<key>Gas</key>
+	<string></string>
+	<key>Oil</key>
+	<integer>0</integer>
+	<key>Electricity</key>
+	<integer>0</integer>
+	<key>Pellet</key>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4DFB3E24EB796E004D46AE /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4DFB3D24EB796E004D46AE /* SettingViewController.swift */; };
 		ECA8B1BF24E669C900FC859F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B1BE24E669C900FC859F /* AppDelegate.swift */; };
 		ECA8B1C124E669C900FC859F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B1C024E669C900FC859F /* SceneDelegate.swift */; };
 		ECA8B1C324E669C900FC859F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B1C224E669C900FC859F /* ViewController.swift */; };
 		ECA8B1C624E669C900FC859F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B1C424E669C900FC859F /* Main.storyboard */; };
 		ECA8B1C824E669CA00FC859F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B1C724E669CA00FC859F /* Assets.xcassets */; };
 		ECA8B1CB24E669CA00FC859F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B1C924E669CA00FC859F /* LaunchScreen.storyboard */; };
+		ECA8B1D324E66F7200FC859F /* QESViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B1D224E66F7200FC859F /* QESViewController.swift */; };
+		ECA8B1D524E677FE00FC859F /* NSESViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B1D424E677FE00FC859F /* NSESViewController.swift */; };
+		ECA8B1D724E6781A00FC859F /* SSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B1D624E6781A00FC859F /* SSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4DFB3D24EB796E004D46AE /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		ECA8B1BB24E669C900FC859F /* FlowExample001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowExample001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA8B1BE24E669C900FC859F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECA8B1C024E669C900FC859F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		ECA8B1C724E669CA00FC859F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA8B1CA24E669CA00FC859F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA8B1CC24E669CB00FC859F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA8B1D224E66F7200FC859F /* QESViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QESViewController.swift; sourceTree = "<group>"; };
+		ECA8B1D424E677FE00FC859F /* NSESViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSESViewController.swift; sourceTree = "<group>"; };
+		ECA8B1D624E6781A00FC859F /* SSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				ECA8B1BE24E669C900FC859F /* AppDelegate.swift */,
 				ECA8B1C024E669C900FC859F /* SceneDelegate.swift */,
-				ECA8B1C224E669C900FC859F /* ViewController.swift */,
 				ECA8B1C424E669C900FC859F /* Main.storyboard */,
+				EC4DFB3D24EB796E004D46AE /* SettingViewController.swift */,
+				ECA8B1C224E669C900FC859F /* ViewController.swift */,
+				ECA8B1D224E66F7200FC859F /* QESViewController.swift */,
+				ECA8B1D424E677FE00FC859F /* NSESViewController.swift */,
+				ECA8B1D624E6781A00FC859F /* SSViewController.swift */,
 				ECA8B1C724E669CA00FC859F /* Assets.xcassets */,
 				ECA8B1C924E669CA00FC859F /* LaunchScreen.storyboard */,
 				ECA8B1CC24E669CB00FC859F /* Info.plist */,
@@ -140,7 +152,11 @@
 			files = (
 				ECA8B1C324E669C900FC859F /* ViewController.swift in Sources */,
 				ECA8B1BF24E669C900FC859F /* AppDelegate.swift in Sources */,
+				ECA8B1D324E66F7200FC859F /* QESViewController.swift in Sources */,
 				ECA8B1C124E669C900FC859F /* SceneDelegate.swift in Sources */,
+				ECA8B1D724E6781A00FC859F /* SSViewController.swift in Sources */,
+				EC4DFB3E24EB796E004D46AE /* SettingViewController.swift in Sources */,
+				ECA8B1D524E677FE00FC859F /* NSESViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7VL3T82J5;
 				INFOPLIST_FILE = FlowExample001/Info.plist;
@@ -293,6 +310,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = koiware.FlowExample001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B7VL3T82J5;
 				INFOPLIST_FILE = FlowExample001/Info.plist;
@@ -311,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = koiware.FlowExample001;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
